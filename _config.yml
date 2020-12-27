@@ -1,0 +1,10 @@
+title: Team Hollow Alphas
+description: The place that you get Team Hollow alphas
+
+twitter_username: hollowdev
+github_username:  teamhollow
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed

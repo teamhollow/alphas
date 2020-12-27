@@ -1,0 +1,27 @@
+---
+layout: home
+---
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="/assets/js/buildsTable.js"></script>
+
+<h2><a href="https://github.com/teamhollow/readyyourshovels/packages">Ready Your Shovels (click for packages)</a></h2>
+{% include fetched_builds_table.html type='commits' github_user='teamhollow' github_repo='readyyourshovels' max_to_display=10 minified=true %}
+
+<hr>
+<br>
+
+<h2><a href="https://github.com/teamhollow/newlands/packages">New Lands (click for packages)</a></h2>
+{% include fetched_builds_table.html type='commits' github_user='teamhollow' github_repo='newlands' max_to_display=10 minified=true %}
+
+<hr>
+<br>
+
+<h2><a href="https://github.com/teamhollow/direbats/packages">Direbats (click for packages)</a></h2>
+{% include fetched_builds_table.html type='commits' github_user='teamhollow' github_repo='direbats' max_to_display=10 minified=true %}
+
+<hr>
+<br>
+
+<h2><a href="https://github.com/teamhollow/soulstriders/packages">Soul Striders (click for packages)</a></h2>
+{% include fetched_builds_table.html type='commits' github_user='teamhollow' github_repo='soulstriders' max_to_display=10 minified=true %}
